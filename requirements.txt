@@ -1,0 +1,13 @@
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.7.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+Package What it does in YOUR project
+torch The core deep learning engine — builds and runs your SimpleUNet model, tensors, backpropagation during training 
+torchvision Helps with image transforms and dataset utilities alongside PyTorch
+opencv-python Reads images/video, resizes frames, draws green lane overlays, handles webcam live feed
+numpy Array math everywhere — probability maps, masks, metric calculations
+matplotlib Generates all your graphs — training curves, IoU/Dice plots, bar charts
+tqdm The progress bar you saw during training Epoch 01/20 ████ 4%
