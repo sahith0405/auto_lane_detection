@@ -221,7 +221,51 @@ After running any script, results are saved in `outputs/`:
 
 ---
 
-## 🔄 Reset & Rerun
+## � Results & Visualizations
+
+### Evaluation Metrics Summary
+
+![Metrics Summary](results/graphs/eval_metrics_summary.png)
+
+**Overall Performance Across All Metrics**
+
+![All Metrics](results/graphs/eval_all_metrics.png)
+
+### Per-Sample Evaluation
+
+![Per-Sample Results](results/graphs/eval_per_sample.png)
+
+### Metric Distributions
+
+![Distributions](results/graphs/eval_distributions.png)
+
+### Demo Results
+
+**Single Image Inference:**
+
+![Demo Single](results/images/demo_test.png)
+
+**Dataset Sample with Comparison:**
+
+![Demo Comparison](results/images/demo_clips_0313-1_10440_20.png)
+
+**Ground Truth Comparison:**
+
+![Comparison Result](results/images/compare_clips_0313-1_10440_20.png)
+
+### Inference Visualization
+
+![Chart Visualization](results/graphs/chart_clips_0313-1_10440_20.png)
+
+### Detailed Evaluation Results
+
+The full evaluation results are available in CSV format: [eval_results.csv](results/metrics/eval_results.csv)
+
+This file contains per-sample metrics including IoU, Dice, Pixel Accuracy, Precision, and Recall for each tested image.
+
+---
+
+## �🔄 Reset & Rerun
 
 To clear all outputs and start fresh:
 
